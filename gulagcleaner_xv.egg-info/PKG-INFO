@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: gulagcleaner-xv
+Version: 0.4.5
+Summary: Herramienta de eliminación de anuncios para PDFs generados por la plataforma Wuolah.
+Home-page: https://github.com/YoSoyGodot/gulag-cleaner-cli
+Author: YM162,KosmicKatXV
+Author-email: david.fontaneda@estudiante.uam.es
+Project-URL: Bug Tracker, https://github.com/YoSoyGodot/gulag-cleaner-cli/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Gulag-cleaner
+
+Herramienta de eliminación de anuncios para PDFs generados por la plataforma Wuolah.
+Es un inverso funcional de las funciones que insertan páginas pdf dentro de otros documentos en forma de objetos PdfName. El ejemplo más prominente es la función embedPages() de la librería PDF-lib.js</br>
+
+También es capaz de extraer los Metadatos (Autor, Asignatura, Universidad...) del archivo. Para más información consultar la descripción de la función.</br>
+
+
+# Instalación</br>
+>pip install gulagcleaner-xv</br>
+
+# Opciones</br>
+- -r : reemplaza los archivos originales
+- -h : muestra información
+- -v : muestra la versión actual
+# Uso</br>
+CLI:</br>
+>gulagcleaner \<filename\></br>
+
+Code:
+>from gulagcleaner.gulagcleaner_extract import deembed
+>
+>return_msg = deembed( "file.pdf" , replace)
