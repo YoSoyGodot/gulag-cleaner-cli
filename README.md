@@ -14,7 +14,7 @@ También es capaz de extraer los Metadatos (Autor, Asignatura, Universidad...) d
 # Opciones</br>
 - -r : reemplaza los archivos originales
 - -h : muestra información
-- -v : muestra la versión actual
+- -v : muestra información por la consola del proceso
 # Uso</br>
 CLI:</br>
 >gulagcleaner \<filename\></br>
