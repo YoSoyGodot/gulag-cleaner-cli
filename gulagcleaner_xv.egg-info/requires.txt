@@ -1,3 +1,0 @@
-pdfrw>=0.4
-pikepdf>=5.1.2
-pdfminer.six>=20220524
